@@ -1,4 +1,4 @@
-let x = Math.floor(Math.random() * 7);
+let x = Math.floor(Math.random() * 7) + 1;
 let y = document.querySelector(".img1");
 switch (x) {
   case 1:
@@ -23,7 +23,7 @@ switch (x) {
     console.log("Invalid");
     break;
 }
-let a = Math.floor(Math.random() * 7);
+let a = Math.floor(Math.random() * 7) + 1;
 let b = document.querySelector(".img2");
 switch (a) {
   case 1:
