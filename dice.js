@@ -52,8 +52,6 @@ if (x > a) {
   document.querySelector(".mah").innerHTML = "player 1  wins!";
 } else if (x < a) {
   document.querySelector(".mah").innerHTML = "player 2 wins!";
-} else if (x && a === 0) {
-  document.querySelector(".mah").innerHTML = "draw!";
 } else {
   document.querySelector(".mah").innerHTML = "draw!";
 }
